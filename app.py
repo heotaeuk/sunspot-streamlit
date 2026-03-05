@@ -99,7 +99,7 @@ try:
         fig = plot_advanced_sunspot_visualizations(filtered_df)
         st.pyplot(fig)
     else:
-        st.warning("데이터가 없습니다.")
+
 
 except Exception as e:
     st.error(f"오류가 발생했습니다: {e}")
